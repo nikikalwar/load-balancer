@@ -2,9 +2,9 @@ const http = require('http');
 
 // List of backend servers to balance load across
 const backendServers = [
-  { host: 'server1.example.com', port: 3000 },
-  { host: 'server2.example.com', port: 3000 },
-  { host: 'server3.example.com', port: 3000 }
+  { host: 'localhost', port: 3000 },
+  { host: 'localhost', port: 3001 },
+  { host: 'localhost', port: 3002 }
 ];
 
 // Create an HTTP server to listen for incoming requests
